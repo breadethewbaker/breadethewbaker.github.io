@@ -5,5 +5,15 @@ a{
   color:blue;
 }
 body{
-  background-color:#Adf3B3;
+  background-color:#07690F;
+}
+h1{
+  background-color:#FFFFFF;
+  border-style:solid;
+  border-radius: 10px;
+}
+h4{
+  background-color:#FFFFFF;
+  border-style:solid;
+  border-radius: 10px;
 }
