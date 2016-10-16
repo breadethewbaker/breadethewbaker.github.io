@@ -1,13 +1,5 @@
 h1{
   color:#07690F;
-}
-a{
-  color:blue;
-}
-#image{
-  background-color:#07690F;
-}
-h1{
   background-color:#FFFFFF;
   border-style:solid;
   border-color:black;
@@ -16,8 +8,18 @@ h1{
   width:13%;
   margin:auto;
 }
-div{
-  
+a{
+  color:blue;
+}
+body{
+  background-color:#07690F;
+}
+#images{
+  border-style:dashed;
+  height:200px;
+  width:20%;
+  border-radius:100px;
+  background-repeat: no-repeat;
 }
 #lbar{
   background-color:#FFFFFF;
@@ -25,4 +27,5 @@ div{
   border-radius: 10px;
   padding:15px;
   width:175px;
+  z-index:1;
 }
