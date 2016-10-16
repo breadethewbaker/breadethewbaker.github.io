@@ -1,21 +1,28 @@
 h1{
-  color:green;
+  color:#07690F;
 }
 a{
   color:blue;
 }
-body{
+#image{
   background-color:#07690F;
 }
 h1{
   background-color:#FFFFFF;
   border-style:solid;
+  border-color:black;
   border-radius: 10px;
-  padding:50px;
+  padding:15px;
+  width:13%;
+  margin:auto;
 }
-h4{
+div{
+  
+}
+#lbar{
   background-color:#FFFFFF;
   border-style:solid;
   border-radius: 10px;
-  padding:50px;
+  padding:15px;
+  width:175px;
 }
