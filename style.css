@@ -14,13 +14,13 @@ a{
 body{
   background-color:#07690F;
 }
-#images{
+/*#images{
   border-style:dashed;
   height:200px;
   width:20%;
   border-radius:100px;
   background-repeat: no-repeat;
-}
+} */
 #lbar{
   background-color:#FFFFFF;
   border-style:solid;
@@ -28,4 +28,5 @@ body{
   padding:15px;
   width:175px;
   z-index:1;
+  float:left;
 }
