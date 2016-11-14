@@ -11,16 +11,13 @@ h1{
 a{
   color:blue;
 }
+#carmenbody{
+  background-image:url('https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQxCk2Rpyfly-WeMW90zcj0hXJnkeKOMMUeivNTHAm3zupvqhAv');
+  background-repeat: no-repeat;
+}
 body{
   background-color:#07690F;
 }
-/*#images{
-  border-style:dashed;
-  height:200px;
-  width:20%;
-  border-radius:100px;
-  background-repeat: no-repeat;
-} */
 #lbar{
   background-color:#FFFFFF;
   border-style:solid;
