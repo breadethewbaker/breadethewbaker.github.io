@@ -1,4 +1,4 @@
-h1{
+h1 {
   color:#07690F;
   background-color:#FFFFFF;
   border-style:solid;
@@ -11,16 +11,24 @@ h1{
 a{
   color:blue;
 }
-#carmenbody{
-  background-image:url('https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQxCk2Rpyfly-WeMW90zcj0hXJnkeKOMMUeivNTHAm3zupvqhAv');
-  background-repeat: no-repeat;
+#carmenbody {
+  /* http://r.ddmcdn.com/s_f/o_1/cx_633/cy_0/cw_1725/ch_1725/w_720/APL/uploads/2014/11/too-cute-doggone-it-video-playlist.jpg
+  https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQxCk2Rpyfly-WeMW90zcj0hXJnkeKOMMUeivNTHAm3zupvqhAv */
+  background-image:url('http://r.ddmcdn.com/s_f/o_1/cx_633/cy_0/cw_1725/ch_1725/w_720/APL/uploads/2014/11/too-cute-doggone-it-video-playlist.jpg');
+  background-repeat:no-repeat;
+  background-position: center top;
+	background-size: cover;
+	padding: 250px 0;
+	margin: 30px;
+	text-shadow: 0 2px #000000;
+	font-family: 'Trebuchet MS', 'Helvetica';
 }
-body{
+body {
   background-color:#07690F;
 }
-#lbar{
-  border-style:solid;
-  border-radius: 10px;
+#lbar {
+  background-color:#FFFFFF;
+  border:solid 5px;
   padding:15px;
   width:175px;
   z-index:1;
