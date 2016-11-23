@@ -1,36 +1,55 @@
-h1 {
+.title {
+  color: #07690F;
+  background-color: lightgrey;
+  border:solid 5px;
+  border-color: black;
+  max-width: auto;
+  margin: auto;
+  text-align: left;
+}
+.cbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.cbar li {
+  border-right: solid 2px;
+  display: inline;
+  width: 100px;
+  padding-left: auto;
+  padding-right: 0px;
+}
+li a:hover {
+  color: lightgreen;
+  background-color: darkgrey;
+}
+a {
   color:#07690F;
-  background-color:#FFFFFF;
-  border-style:solid;
-  border-color:black;
-  border-radius: 10px;
-  padding:15px;
-  width:50%;
-  margin:auto;
 }
-a{
-  color:blue;
+.cartitle {
+  background-image:url('https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQxCk2Rpyfly-WeMW90zcj0hXJnkeKOMMUeivNTHAm3zupvqhAv');
+  background-repeat:repeat;
+  background-position: center;
+  color: #FFF;
+	font-family: 'Garamond','Trebuchet MS', 'Helvetica';
 }
-#carmenbody {
-  /* http://r.ddmcdn.com/s_f/o_1/cx_633/cy_0/cw_1725/ch_1725/w_720/APL/uploads/2014/11/too-cute-doggone-it-video-playlist.jpg
-  https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQxCk2Rpyfly-WeMW90zcj0hXJnkeKOMMUeivNTHAm3zupvqhAv */
-  background-image:url('http://r.ddmcdn.com/s_f/o_1/cx_633/cy_0/cw_1725/ch_1725/w_720/APL/uploads/2014/11/too-cute-doggone-it-video-playlist.jpg');
-  background-repeat:no-repeat;
-  background-position: center top;
-	background-size: cover;
-	padding: 250px 0;
-	margin: 30px;
-	text-shadow: 0 2px #000000;
-	font-family: 'Trebuchet MS', 'Helvetica';
+.carlbar {
+  background-image:url('https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQxCk2Rpyfly-WeMW90zcj0hXJnkeKOMMUeivNTHAm3zupvqhAv');
+  background-repeat:repeat;
+  background-position: center;
+  color: #FFF;
+	font-family: 'Garamond','Trebuchet MS', 'Helvetica';
+  background-size:cover;
+  margin-bottom: 10px;
 }
 body {
-  background-color:#07690F;
+  background-color:#6EAC96;
 }
-#lbar {
-  background-color:#FFFFFF;
+.lbar {
+  background-color:lightgrey;
   border:solid 5px;
   padding:15px;
   width:175px;
-  z-index:1;
-  float:left;
+  margin-bottom: 10px;
+  margin-top: 20px;
 }

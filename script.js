@@ -1,15 +1,18 @@
 var _divClick = 0;
 
-$('div').click(function(){
+$('#hl').click(function(){
   if (_divClick === 0){
-    $("h1").html("Carmen Sandiego");
-    $('#acts').append("<li id='add'>Hiding</li>");
+    $("#hl").html("Carmen Sandiego");
+    $('.acts').remove()
+    $('#ul').append("<ul class='acts'><li id='add'>Hiding</li></ul>");
     _divClick = 1;
   }
   else{
-    $("h1").html("Brett Baker");
+    $("#hl").html("<a>Brett Baker</a>");
     $("#add").remove();
+    $('.acts').append("<li>Running</li>\n<li>Riding my bicycle</li>\n<li>Playing tennis</li>\n<li>Reading</li>\n<li>Baking</li>");
     _divClick = 0;
   }
-  $('#carmen').toggleClass("carmenbody");
+  $('.title').toggleClass("cartitle");
+  $('.lbar').toggleClass("carlbar");
 });
