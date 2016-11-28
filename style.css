@@ -24,7 +24,8 @@ li a:hover {
   background-color: darkgrey;
 }
 a {
-  color:#07690F;
+  color: #07690F;
+  text-decoration: none;
 }
 .cartitle {
   background-image:url('https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQxCk2Rpyfly-WeMW90zcj0hXJnkeKOMMUeivNTHAm3zupvqhAv');
@@ -52,4 +53,7 @@ body {
   width:175px;
   margin-bottom: 10px;
   margin-top: 20px;
+}
+#hl {
+  padding-left: 10px;
 }
