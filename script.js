@@ -16,5 +16,5 @@ $(document).ready(function(){
     $('.title').toggleClass("cartitle");
     $('.lbar').toggleClass("carlbar");
   });
-  $('#sudoku').append
+  $('#sudoku')
 });
