@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="main.css">
 </head>
 <body>
-
+<div id="body" class="desktop">
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -44,11 +44,26 @@
     </div>
   </div>
 </div>
+</div>
 <footer class="container-fluid text-center">
   <p>Last Updated: December 16, 2016</p>
 	<p>html template from <a href="http://getbootstrap.com/getting-started/">http://getbootstrap.com/getting-started/</a>
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+  function resizeContent(sh,sw) {
+    if (sh/sw > 1 ) {
+      $("#body").addClass("phone");
+      $("#body").removeClass("desktop");
+    }
+    else {
+      $("#body").addClass("desktop");
+      $("#body").removeClass("phone");
+    }
+  }
+  resizeContent($(window).height(),$(window).width());
+  $(window).on('resize', resizeContent($(window).height(),$(window).width()));
+</script>
 </body>
 </html>
