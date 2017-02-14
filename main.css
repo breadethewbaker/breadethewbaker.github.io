@@ -20,7 +20,7 @@ div {
 footer {
       background-color: #222222;
       color: white;
-      padding: 15px;
+			padding-top: 10px;
 }
 
 @media screen and (max-width: 767px) {
@@ -41,4 +41,7 @@ footer {
 }
 .phone {
 	height: 1600px;
+}
+#resume {
+	height: 1200px;
 }
