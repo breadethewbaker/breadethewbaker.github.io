@@ -45,3 +45,7 @@ footer {
 #resume {
 	height: 1200px;
 }
+#profile {
+	height: 200px;
+	border-radius:100px;
+}
