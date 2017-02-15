@@ -10,7 +10,7 @@ div {
       border-radius: 0;
 }
 .row.content {
-			height: 100%;
+			height: 200px;
 }
 .sidenav,.text-left {
       padding-top: 0px;
@@ -43,9 +43,12 @@ footer {
 	height: 1600px;
 }
 #resume {
-	height: 1200px;
+	height: 1121px;
 }
 #profile {
-	height: 200px;
-	border-radius:100px;
+	height: 100%;
+	border-radius:100%;
+}
+#profile:hover {
+	box-shadow: 4px grey;
 }

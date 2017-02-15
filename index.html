@@ -20,11 +20,10 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Brett Baker</a>
+      <a class="navbar-brand active" href="index.html">Brett Baker</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html">Home</a></li>
         <li><a href="Resume/index.html">Resume</a></li>
         <li><a href="Projects/index.html">Projects</a></li>
         <li><a href="Contacts/index.html">Contact</a></li>
@@ -64,7 +63,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script>
-  function resizeContent(sh,sw) {
+  /*function resizeContent(sh,sw) {
     if (sh/sw > 1 ) {
       $("#body").addClass("phone");
       $("#body").removeClass("desktop");
@@ -73,9 +72,12 @@
       $("#body").addClass("desktop");
       $("#body").removeClass("phone");
     }
+  }*/
+  function snailMove() {
+
   }
-  resizeContent($(window).height(),$(window).width());
-  $(window).on('resize', resizeContent($(window).height(),$(window).width()));
+  //resizeContent($(window).height(),$(window).width());
+  //$(window).on('resize', resizeContent($(window).height(),$(window).width()));
 </script>
 </body>
 </html>
