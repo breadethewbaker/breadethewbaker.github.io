@@ -1,16 +1,9 @@
-html,body {
-			padding: 0;
-			margin: 0;
-}
-div {
-			height: 100%;
-}
 .navbar {
       margin-bottom: 0;
       border-radius: 0;
 }
 .row.content {
-			height: 200px;
+			height: 50px;
 }
 .sidenav,.text-left {
       padding-top: 0px;
@@ -29,8 +22,9 @@ footer {
 	}
 }
 .jumbotron {
-	background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/69/Grapevinesnail_01.jpg");
+	/*background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/69/Grapevinesnail_01.jpg");*/
 	background-position: center;
+	background-image: url(Documents/Grapevinesnail.jpg);
 	text-align: center;
 	color: green;
 	background-repeat: repeat;
@@ -48,7 +42,11 @@ footer {
 #profile {
 	height: 100%;
 	border-radius:100%;
+	width: 100%;
 }
 #profile:hover {
-	box-shadow: 4px grey;
+	box-shadow: 0px 0px 25px grey;
+}
+.nav img {
+	height:50px;
 }
